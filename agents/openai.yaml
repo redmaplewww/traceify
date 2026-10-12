@@ -1,0 +1,4 @@
+interface:
+  display_name: "Traceify"
+  short_description: "Turn sources into an editable evidence graph"
+  default_prompt: "Use $traceify to turn this source into an editable graph with linked evidence."
