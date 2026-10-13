@@ -1,0 +1,34 @@
+{
+  "suite": "Traceify first-version input smoke tests",
+  "run_mode": "source acquisition and contract-oriented checks",
+  "cases": [
+    {
+      "id": "long-article",
+      "kind": "webpage",
+      "title": "History of the Internet",
+      "source": "https://en.wikipedia.org/wiki/History_of_the_Internet",
+      "checks": ["preserve section hierarchy", "paragraph-first mapping", "evidence chain across historical stages"]
+    },
+    {
+      "id": "tweet",
+      "kind": "webpage",
+      "title": "GitHub Status public post",
+      "source": "https://x.com/githubstatus/status/2042276402846670917",
+      "checks": ["extract one short post", "do not invent paragraph structure", "retain exact post URL and excerpt"]
+    },
+    {
+      "id": "paper",
+      "kind": "webpage",
+      "title": "Attention Is All You Need abstract page",
+      "source": "https://arxiv.org/abs/1706.03762",
+      "checks": ["separate abstract, method, result and citation claims", "preserve paper URL", "build evidence path from problem to contribution"]
+    },
+    {
+      "id": "manual",
+      "kind": "webpage",
+      "title": "The Python Tutorial",
+      "source": "https://docs.python.org/3/tutorial/",
+      "checks": ["preserve instructional hierarchy", "map concepts to procedures", "keep section-to-source links"]
+    }
+  ]
+}
