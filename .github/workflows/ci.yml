@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile Python sources
+        run: python -m compileall tests -q
+
+      - name: Validate smoke-test manifest
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          manifest = json.loads(
+              pathlib.Path("tests/source-manifest.json").read_text(encoding="utf-8-sig")
+          )
+          assert manifest.get("cases"), "manifest must contain cases"
+          for case in manifest["cases"]:
+              assert case.get("id"), f"case missing id: {case}"
+              assert case.get("source", "").startswith("http"), f"bad source in {case['id']}"
+              assert case.get("checks"), f"case {case['id']} has no checks"
+          print(f"OK: {len(manifest['cases'])} smoke cases validated")
+          PY
+
+# The network smoke suite (tests/run_smoke.py) fetches live pages, including
+# social platforms that reject datacenter traffic. Run it locally instead:
+#   python tests/run_smoke.py
