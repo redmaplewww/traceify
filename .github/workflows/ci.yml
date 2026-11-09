@@ -16,7 +16,7 @@ jobs:
           python-version: "3.12"
 
       - name: Compile Python sources
-        run: python -m compileall tests -q
+        run: python -m compileall server.py build_standalone.py tests -q
 
       - name: Validate smoke-test manifest
         run: |
@@ -32,6 +32,40 @@ jobs:
               assert case.get("checks"), f"case {case['id']} has no checks"
           print(f"OK: {len(manifest['cases'])} smoke cases validated")
           PY
+
+  editor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install browser test dependencies
+        run: |
+          python -m pip install -r requirements-tests.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Check graph logic and API path adapter
+        run: node --test tests/editor.test.mjs integration/api-adapter.test.mjs
+
+      - name: Check editor API
+        run: python tests/test_editor_api.py
+
+      - name: Check browser editing and layout
+        run: |
+          python tests/browser_editor.py
+          python tests/browser_drag.py
+          python tests/browser_design.py
+          python tests/browser_modules.py
+
+      - name: Build standalone HTML
+        run: python build_standalone.py --output /tmp/Traceify.html
 
 # The network smoke suite (tests/run_smoke.py) fetches live pages, including
 # social platforms that reject datacenter traffic. Run it locally instead:

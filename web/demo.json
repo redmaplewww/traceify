@@ -1,0 +1,1320 @@
+{
+  "schema_version": 2,
+  "id": "default",
+  "source": {
+    "id": "s-source",
+    "kind": "webpage",
+    "title": "互联网",
+    "locator": "https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91",
+    "content_hash": "492e6aa69b66d2e05ecf5f2c44c3ead533ece73129734087ec3f3ba49b1831a7",
+    "status": "complete",
+    "segments": [
+      {
+        "id": "s-001",
+        "tag": "p",
+        "text": "互联网 （英語： Internet ，台湾称 网际网路 ，中国大陆 、 新马泰 又称 因特网 ）是 20世紀 末期興起 電腦網路 與電腦網路之間所串連成的龐大網路系統。這些網路以一些標準的 網路協議 相連。它是由從地方到全球範圍內幾百萬個私人、 學術界 、企業和政府的網路所構成，透過 電子 、 無線 和 光纖網絡技術 等等一系列廣泛的技術聯繫在一起。互聯網承載範圍廣泛的信息資源和服務，比方說相互關聯的 超文本 文件，還有 萬維網 （ WWW ）的應用、 電子郵件 、 通話 ，以及 文件共享 等 個人 收發 服務。"
+      },
+      {
+        "id": "s-002",
+        "tag": "p",
+        "text": "網際網路的起源可以追溯到1960年代 美國聯邦政府 委託進行的一項研究，目的是建立容錯與電腦網路的通信 。網際網路的前身 ARPANET 最初在1980年代作為區域學術和軍事網路連接的骨幹。1980年代， NSFNET （ 英语 ： NSFNET ） 成為新的骨幹而得到資助，以及其他商業化擴展得到了私人資助，這導致了全世界網路技術的快速發展，以及許多不同網路的合併結成更大的網路 。到1990年代初，商業網路和企業之間的連接標誌著向現代網際網路的過渡 。儘管網際網路在1980年代只被學術界廣泛使用，但商業化的服務和技術，令其極快的融入了現代每個人的生活。"
+      },
+      {
+        "id": "s-003",
+        "tag": "h2",
+        "text": "词汇区别"
+      },
+      {
+        "id": "s-004",
+        "tag": "p",
+        "text": "互联网 並不等同 万维网 。互联网是指 网络 与网络之间所串而连成的一个逻辑上的单一巨大国际网络，这些网络以一组通用的协议相连。万维网是一个由许多互相链接的 超文本 组成的系统，可以理解为互联网的一项服务，通过互联网访问。 互联网与万维网之间的关系为互联网包含万维网，万维网属于互联网。"
+      },
+      {
+        "id": "s-005",
+        "tag": "h2",
+        "text": "历史"
+      },
+      {
+        "id": "s-006",
+        "tag": "p",
+        "text": "在20世紀50年代，通信研究者认识到需要允许在不同计算机用户和通信网络之间进行常规的通信。这促使 分散网络 、 排队论 和 封包交換 的研究。1960年， 美国国防部 高等研究计划署 （DARPA）出于 冷战 考虑建立的 ARPANET 引发技术进步并使其成为互联网发展的中心。ARPANET的發展始於兩個網路節點，由 倫納德·克萊因羅克 帶領的 加利福尼亞大學洛杉磯分校 的網路測量中心與 加利福尼亞州門羅帕克 斯坦福國際研究院 （ 英语 ： SRI International ） （SRI） 道格拉斯·恩格爾巴特 的NLS系統兩個節點之間連接。第三個節點是 加利福尼亞大學聖塔芭芭拉分校 ，第四個節點是 犹他大学 。到1971年底，已經有15個節點連接到ARPANET 。1973年6月，挪威地震陣列所（ NORSAR （ 英语 ： NORSAR ） ）連接到ARPANET成為美國本土之外的第一個網路節點 。"
+      },
+      {
+        "id": "s-007",
+        "tag": "p",
+        "text": "1974年， 罗伯特·卡恩 和 文頓·瑟夫 提出 TCP/IP ，定义在电脑网络之间传送报文的方法（他們在2004年也因此獲得 图灵奖 ）。1986年， 美国国家科学基金会 建立了 美国國家超級電腦應用中心 與學術機構之间互联基於TCP/IP技術的骨干网络 NSFNET （ 英语 ： NSFNET ） ，速度由最初的56kbit/s，接著為T1（1.5Mbit/s），最後發展至T3（45Mbit/s） 。NSFNET於1988至1989年擴展到歐洲、澳洲、紐西蘭和日本的學術和研究組織 。商業 互聯網服務提供商 （ISP）於1989年在美國和澳洲成立 。ARPANET於1990年退役 。"
+      },
+      {
+        "id": "s-008",
+        "tag": "p",
+        "text": "1989年中期，MCI Mail和 CompuServe 與網際網路建立連接，並且向50萬大眾提供電子郵件服務 。1990年3月， 康奈爾大學 和 歐洲核子研究中心 （CERN）之間架設NSFNET和歐洲之間的第一條高速T1（1.5Mbit/s）連接 。六個月後， 蒂姆·伯纳斯-李 編寫 第一個網頁瀏覽器 。到1990年聖誕節，蒂姆·伯纳斯-李建立運行 万维网 所需的所有工具： 超文本傳輸協定 （HTTP） 、 超文本標記語言 （HTML）、第一個 網頁瀏覽器 、第一個 網頁伺服器 和第一個 網站 。到1995年，NSFNET退役時，互聯網在美國已完全商業化，從而解除最後的商業流量限制 。"
+      },
+      {
+        "id": "s-009",
+        "tag": "p",
+        "text": "網際網路的成功，可從“Internet”这个术语的大、小寫分化窺知一二。最初，互联网一詞代表那些使用IP協定架設而成的網路，而今天，它已引申泛指各種類型的網路，不再侷限於IP網路。於是以小寫的互联网（internet，開頭的「i」是小寫字母）為任何分離的實體網路之集合，這些網路以一組通用的協定相連，形成邏輯上的單一網路。而大寫的互联网（Internet，開頭的「I」是大寫字母）專指前身為 ARPANET ，後使用IP協定將各種實體網路連結成此單一邏輯網路。大寫的互聯網是小寫互聯網的其中一種形式，反過來卻不然。 2002年起，有学者开始提议将“internet”一词用小写表示，理由是互联网已经成为人类生活的一部分，失去专有的意义 ；2016年， 美联社 认为“互联网”已和“电话”一样成为一件一般的事物，不具有专属商标的意义，于是开始在其格式手册中规定“internet”和“ web ”一词全部小写， 纽约时报 也随后跟进， 但同时亦有媒体提出不同意见 。"
+      },
+      {
+        "id": "s-010",
+        "tag": "h2",
+        "text": "連接技術"
+      },
+      {
+        "id": "s-011",
+        "tag": "p",
+        "text": "任何需要使用網際網路的计算机必须通过某种方式与網際網路进行连接。網際網路接入技术的发展非常迅速，带宽由最初的14.4 Kbps 发展到目前的1 Gbps 甚至10 Gbps 带宽，接入方式也由过去单一的 电话拨号 方式，发展成现在多样的有线和无线接入方式，接入终端也開始朝向移动设备发展。并且更新更快的接入方式仍在继续地被研究和开发。"
+      },
+      {
+        "id": "s-012",
+        "tag": "h2",
+        "text": "架構"
+      },
+      {
+        "id": "s-013",
+        "tag": "p",
+        "text": "最顶层的是一些应用层协议，这些协议定义了一些用于通用应用的数据报结构，包括 FTP 及 HTTP 等。中间层是 UDP协议 和 TCP协议 ，它们用于控制数据流的传输。 UDP 是一种不可靠的数据流传输协议，仅为网络层和应用层之间提供简单的接口。而TCP协议则具有高的可靠性，通过为数据报加入额外信息，并提供重发机制，它能够保证数据不丢包、没有冗余包以及保证数据包的顺序。对于一些需要高可靠性的应用，可以选择TCP协议；而相反，对于性能优先考虑的应用如流媒体等，则可以选择UDP协议。"
+      },
+      {
+        "id": "s-014",
+        "tag": "p",
+        "text": "最底层的是 網際網路協定 ，是用于报文交换网络的一种面向数据的协议，这一协议定义了数据包在网际传送时的格式。目前使用最多的是 IPv4 版本，这一版本中用32位定义 IP地址 ，尽管地址总数达到43亿，但是仍然不能满足现今全球网络飞速发展的需求，因此 IPv6 版本应运而生。在IPv6版本中，IP地址共有128位，“几乎可以为地球上每一粒沙子分配一个IPv6地址”。IPv6目前并没有普及，许多網際網路服务提供商并不支持IPv6协议的连接。但是，可以预见，将来在IPv6的帮助下，任何家用电器都有可能连入網際網路。"
+      },
+      {
+        "id": "s-015",
+        "tag": "h2",
+        "text": "服務"
+      },
+      {
+        "id": "s-016",
+        "tag": "p",
+        "text": "網際網路承載著眾多應用與服務，其中最為普遍的是 全球資訊網 ，此外還包括 社群媒體 、 電子郵件 、 行動應用程式 、 多人電子遊戲 、 網際網路通話 、 檔案分享 以及 串流媒體 服務。"
+      },
+      {
+        "id": "s-017",
+        "tag": "h3",
+        "text": "全球資訊網"
+      },
+      {
+        "id": "s-018",
+        "tag": "p",
+        "text": "全球資訊網 是一個全球性的資源集合，包含 文件 、 圖片 、 多媒體 、應用程式及其他資源，透過 超連結 進行邏輯上的關聯，並使用 統一資源標誌符 作為引用基準，提供了一套全球性的命名參考系統，象徵性地識別了各項服務、 網頁伺服器 、資料庫以及其所能提供的文件與資源。"
+      },
+      {
+        "id": "s-019",
+        "tag": "p",
+        "text": "超文本傳輸協議 （HTTP）是全球資訊網主要的存取協議，全球資訊網的服務使用HTTP在軟體系統之間進行通訊和資料傳輸 。"
+      },
+      {
+        "id": "s-020",
+        "tag": "p",
+        "text": "全球資訊網瀏覽器軟體，例如︰ Microsoft Edge 、 Mozilla Firefox 、 Opera 、 Safari 以及 Google Chrome (全球五大瀏覽器)能讓使用者能透過文件中嵌入的超連結，在不同的網頁之間跳轉。這些文件可能包括圖形、音訊、文字、影片、多媒體及互動內容。 動態網頁 則可實現動畫、遊戲以及科學展示等功能。"
+      },
+      {
+        "id": "s-021",
+        "tag": "h3",
+        "text": "通訊"
+      },
+      {
+        "id": "s-022",
+        "tag": "p",
+        "text": "電子郵件 是網際網路上重要的通訊服務。這項類似於郵寄信件或備忘錄的方式發送電子文字訊息的概念已早於網際網路的誕生之前 。圖片、文件和其他資料以電子郵件附件的形式發送。電子郵件可以發送多個 電子郵件地址 。"
+      },
+      {
+        "id": "s-023",
+        "tag": "h3",
+        "text": "檔案（PDF／jpg等等） 傳輸"
+      },
+      {
+        "id": "s-024",
+        "tag": "p",
+        "text": "檔案分享 是網際網路傳輸大量數據的一個例子，透過上傳至網站或 檔案傳輸協定 （FTP）伺服器上以供他人下載。除此之外，也可以置於共享位置或 檔案伺服器 供其他人使用。"
+      },
+      {
+        "id": "s-025",
+        "tag": "h2",
+        "text": "安全"
+      },
+      {
+        "id": "s-026",
+        "tag": "p",
+        "text": "经过多年的发展，互联网已经在社会的各个层面为全人类提供了便利。但是随之而来的不全是正面的影响，並影響著人们的正常生活。"
+      },
+      {
+        "id": "s-027",
+        "tag": "h3",
+        "text": "惡意軟體"
+      },
+      {
+        "id": "s-028",
+        "tag": "p",
+        "text": "惡意軟體 是透過互聯網使用和散發的軟件，包括在人為協助下複製的 電腦病毒 、自我複製的 電腦蠕蟲 、 阻斷服務攻擊 軟體、 勒索軟件 、釣魚攻擊、 殭屍網絡 以及蒐集使用者活動和鍵入資訊的 間諜軟件 ，通常這些行為足以構成 網路犯罪 。"
+      },
+      {
+        "id": "s-029",
+        "tag": "h3",
+        "text": "監控"
+      },
+      {
+        "id": "s-030",
+        "tag": "p",
+        "text": "在美國，由 美國國家安全局 （NSA）為首自2007年起開始實施的最高機密等級電子監聽計劃，該計劃可監聽美國本土以外的使用者、或任何與國外通訊的美國公民。參與此計划的前 中情局 （CIA）雇员 斯诺登 在2013年5月將檔案複製後前往香港並將此計划公諸於世，然后於2013年6月6日，在英国《 衛報 》和美国《 華盛頓郵報 》公開 。"
+      },
+      {
+        "id": "s-031",
+        "tag": "h3",
+        "text": "内容审查"
+      },
+      {
+        "id": "s-032",
+        "tag": "p",
+        "text": "网络内容审查是一种对网络承载的内容进行审查，并对部分内容进行过滤、删除、关闭等行为，内容审查通常伴随对相关人员与组织的行政处理。网络审查主要针对危害国家安全、侵犯版权与个人隐私、通过网络进行违法活动以及对不道德的行为进行宣传和教唆等行为。许多国家都有相关立法，并且在政府设有相关部门进行监控和管理。然而对网络内容的审查在一定程度上限制了言论的自由，在何种程度上、采取何种手段进行网络审查一直是争议的话题。"
+      },
+      {
+        "id": "s-033",
+        "tag": "p",
+        "text": "在西方国家例如美国，通常由网络提供商和企业制定网络内容审查的策略，而政府对不涉及刑事犯罪的网络内容不做任何监管；在 中华人民共和国 的大陆地区，政府通常会对网络内容的审查发布建议性和指导性政策，各企业和网络提供商根据建议性和指导性政策，利用 信息技术 进行网络内容的过滤和审查，过滤和阻挡了一些包含政治和色情信息的国内、国外网站，以限制大部分民众访问到这些网站 或增加该网站的访问难度。在 中华人民共和国 的 香港特别行政区 、 澳门特别行政区 ，政府亦不对不涉及刑事犯罪的网络内容做任何审查。个别国家，如 朝鲜 ，则完全禁止普通民众访问境外网站，民众只能访问由政府开设的 國家區域網路 。"
+      },
+      {
+        "id": "s-034",
+        "tag": "h2",
+        "text": "普及率"
+      },
+      {
+        "id": "s-035",
+        "tag": "p",
+        "text": "截至2020年6月，全球約有48億網民，互聯網普及率是62%。"
+      },
+      {
+        "id": "s-036",
+        "tag": "p",
+        "text": "截至2019年，互联网普及率最高的國家或城市為科威特（99.6%）；第二至第五位分別是卡塔尔（99.6%）、福克兰群岛（99.3%），百慕大（99.2%）及冰岛（99.0%）。"
+      },
+      {
+        "id": "s-037",
+        "tag": "p",
+        "text": "根据 中国互联网络信息中心 在2022年8月31日发表的第50次《中国互联网络发展状况统计报告》，截至2022年6月，中国的 网民 规模为10.51亿，为世界首位。互联网普及率达74.4%，已远高于世界平均水平。"
+      },
+      {
+        "id": "s-038",
+        "tag": "h2",
+        "text": "註釋"
+      },
+      {
+        "id": "s-039",
+        "tag": "li",
+        "text": "网络化生存，乔岗，中国城市出版社，1997年， ISBN 978-7-5074-0930-7"
+      },
+      {
+        "id": "s-040",
+        "tag": "li",
+        "text": "Richard J. Smith, Mark Gibbs, Paul McFedries 著，毛伟、张文涛 译，Internet漫游指南，人民邮电出版社，1998年. ISBN 978-7-115-06663-3"
+      },
+      {
+        "id": "s-041",
+        "tag": "li",
+        "text": "世界是平的 ， 湯馬斯·佛里曼 著，2005年出版. ISBN 978-986-80180-9-9"
+      },
+      {
+        "id": "s-042",
+        "tag": "li",
+        "text": "互联网主题"
+      },
+      {
+        "id": "s-043",
+        "tag": "li",
+        "text": "电信主题"
+      },
+      {
+        "id": "s-044",
+        "tag": "li",
+        "text": "信息技术主题"
+      },
+      {
+        "id": "s-045",
+        "tag": "li",
+        "text": "社会主题"
+      },
+      {
+        "id": "s-046",
+        "tag": "li",
+        "text": "內聯網"
+      },
+      {
+        "id": "s-047",
+        "tag": "li",
+        "text": "區域網路"
+      },
+      {
+        "id": "s-048",
+        "tag": "li",
+        "text": "廣域網路"
+      },
+      {
+        "id": "s-049",
+        "tag": "li",
+        "text": "都會網路"
+      },
+      {
+        "id": "s-050",
+        "tag": "li",
+        "text": "網頁瀏覽器"
+      },
+      {
+        "id": "s-051",
+        "tag": "li",
+        "text": "网络电话"
+      },
+      {
+        "id": "s-052",
+        "tag": "li",
+        "text": "即時通訊"
+      },
+      {
+        "id": "s-053",
+        "tag": "li",
+        "text": "搜索引擎"
+      },
+      {
+        "id": "s-054",
+        "tag": "li",
+        "text": "信息技术"
+      },
+      {
+        "id": "s-055",
+        "tag": "li",
+        "text": "计算机技术"
+      },
+      {
+        "id": "s-056",
+        "tag": "li",
+        "text": "网络语言"
+      },
+      {
+        "id": "s-057",
+        "tag": "li",
+        "text": "網路友誼"
+      },
+      {
+        "id": "s-058",
+        "tag": "li",
+        "text": "網誌"
+      },
+      {
+        "id": "s-059",
+        "tag": "li",
+        "text": "網域名稱"
+      },
+      {
+        "id": "s-060",
+        "tag": "li",
+        "text": "網路硬碟"
+      },
+      {
+        "id": "s-061",
+        "tag": "li",
+        "text": "全球網際網路使用率"
+      },
+      {
+        "id": "s-062",
+        "tag": "li",
+        "text": "互联网审查"
+      },
+      {
+        "id": "s-063",
+        "tag": "li",
+        "text": "暗网"
+      },
+      {
+        "id": "s-064",
+        "tag": "li",
+        "text": "網路主權"
+      },
+      {
+        "id": "s-065",
+        "tag": "li",
+        "text": "在網際網路上，沒人知道你是一隻狗"
+      },
+      {
+        "id": "s-066",
+        "tag": "li",
+        "text": "Minitel"
+      },
+      {
+        "id": "s-067",
+        "tag": "li",
+        "text": "（英文） The Internet Society （ 页面存档备份 ，存于 互联网档案馆 ）"
+      },
+      {
+        "id": "s-068",
+        "tag": "li",
+        "text": "（英文） World Wide Web Consortium (W3C) （ 页面存档备份 ，存于 互联网档案馆 ）"
+      },
+      {
+        "id": "s-069",
+        "tag": "li",
+        "text": "（英文） Asia Pacific Network Information Centre （ 页面存档备份 ，存于 互联网档案馆 ）"
+      },
+      {
+        "id": "s-070",
+        "tag": "li",
+        "text": "（英文） RFC 2235 - Hobbes' Internet Timeline"
+      },
+      {
+        "id": "s-071",
+        "tag": "li",
+        "text": "（中文） W3C China中国万维网联盟"
+      },
+      {
+        "id": "s-072",
+        "tag": "li",
+        "text": "（中文） 財團法人台灣網路資訊中心 （ 页面存档备份 ，存于 互联网档案馆 ）"
+      },
+      {
+        "id": "s-073",
+        "tag": "li",
+        "text": "（中文） 中国互联网络信息中心 （ 页面存档备份 ，存于 互联网档案馆 ）"
+      }
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "n-title",
+        "label": "互联网整体",
+        "kind": "concept",
+        "summary": "文章以互联网的定义、演化、协议、服务、安全和普及为主线。",
+        "content": "",
+        "confidence": 0.95,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-001",
+            "excerpt": "互联网 （英語： Internet ，台湾称 网际网路 ，中国大陆 、 新马泰 又称 因特网 ）是 20世紀 末期興起 電腦網路 與電腦網路之間所串連成的龐大網路系統。這些網路以一些標準的 網路協議 相連。它是由從地方到全球範圍內幾百萬個私人、 學術界 、企業和政府的網路所構成，透過 電子 、 無線 和 光纖網絡技術 等等一系列廣泛的技術聯繫在一起。互聯網承載範圍廣泛的信息資源和服務，比方說相互關聯的 超文本 文件，還有 萬維網 （ WWW ）的應用、 電子郵件 、 通話 ，以及 文件共享 等 個人 收發 服務。",
+            "overview": "互联网 （英語： Internet ，台湾称 网际网路 ，中国大陆 、 新马泰 又称 因特网 ）是 20世紀 末期興起 電腦網路 與電腦網路之間所串連成的龐大網路系統。這些網路以一些標準的 網路協議 相連。它是由從地方到全球範圍內幾百萬個私"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-002",
+            "excerpt": "網際網路的起源可以追溯到1960年代 美國聯邦政府 委託進行的一項研究，目的是建立容錯與電腦網路的通信 。網際網路的前身 ARPANET 最初在1980年代作為區域學術和軍事網路連接的骨幹。1980年代， NSFNET （ 英语 ： NSFNET ） 成為新的骨幹而得到資助，以及其他商業化擴展得到了私人資助，這導致了全世界網路技術的快速發展，以及許多不同網路的合併結成更大的網路 。到1990年代初，商業網路和企業之間的連接標誌著向現代網際網路的過渡 。儘管網際網路在1980年代只被學術界廣泛使用，但商業化的服務和技術，令其極快的融入了現代每個人的生活。",
+            "overview": "網際網路的起源可以追溯到1960年代 美國聯邦政府 委託進行的一項研究，目的是建立容錯與電腦網路的通信 。網際網路的前身 ARPANET 最初在1980年代作為區域學術和軍事網路連接的骨幹。1980年代， NSFNET （ 英语 ： NSF"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      },
+      {
+        "id": "n-concept",
+        "label": "基本概念",
+        "kind": "concept",
+        "summary": "说明互联网是由多个网络通过通用协议连接形成的逻辑整体，并与万维网等服务区分。",
+        "content": "",
+        "confidence": 0.95,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-003",
+            "excerpt": "词汇区别",
+            "overview": "词汇区别"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-004",
+            "excerpt": "互联网 並不等同 万维网 。互联网是指 网络 与网络之间所串而连成的一个逻辑上的单一巨大国际网络，这些网络以一组通用的协议相连。万维网是一个由许多互相链接的 超文本 组成的系统，可以理解为互联网的一项服务，通过互联网访问。 互联网与万维网之间的关系为互联网包含万维网，万维网属于互联网。",
+            "overview": "互联网 並不等同 万维网 。互联网是指 网络 与网络之间所串而连成的一个逻辑上的单一巨大国际网络，这些网络以一组通用的协议相连。万维网是一个由许多互相链接的 超文本 组成的系统，可以理解为互联网的一项服务，通过互联网访问。 互联网与万维网之"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      },
+      {
+        "id": "n-history",
+        "label": "历史演化",
+        "kind": "concept",
+        "summary": "从分组交换、ARPANET、TCP/IP、NSFNET 到万维网，梳理互联网从研究网络走向全球基础设施的过程。",
+        "content": "",
+        "confidence": 0.88,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-005",
+            "excerpt": "历史",
+            "overview": "历史"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-006",
+            "excerpt": "在20世紀50年代，通信研究者认识到需要允许在不同计算机用户和通信网络之间进行常规的通信。这促使 分散网络 、 排队论 和 封包交換 的研究。1960年， 美国国防部 高等研究计划署 （DARPA）出于 冷战 考虑建立的 ARPANET 引发技术进步并使其成为互联网发展的中心。ARPANET的發展始於兩個網路節點，由 倫納德·克萊因羅克 帶領的 加利福尼亞大學洛杉磯分校 的網路測量中心與 加利福尼亞州門羅帕克 斯坦福國際研究院 （ 英语 ： SRI International ） （SRI） 道格拉斯·恩格爾巴特 的NLS系統兩個節點之間連接。第三個節點是 加利福尼亞大學聖塔芭芭拉分校 ，第四個節點是 犹他大学 。到1971年底，已經有15個節點連接到ARPANET 。1973年6月，挪威地震陣列所（ NORSAR （ 英语 ： NORSAR ） ）連接到ARPANET成為美國本土之外的第一個網路節點 。",
+            "overview": "在20世紀50年代，通信研究者认识到需要允许在不同计算机用户和通信网络之间进行常规的通信。这促使 分散网络 、 排队论 和 封包交換 的研究。1960年， 美国国防部 高等研究计划署 （DARPA）出于 冷战 考虑建立的 ARPANET 引"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-007",
+            "excerpt": "1974年， 罗伯特·卡恩 和 文頓·瑟夫 提出 TCP/IP ，定义在电脑网络之间传送报文的方法（他們在2004年也因此獲得 图灵奖 ）。1986年， 美国国家科学基金会 建立了 美国國家超級電腦應用中心 與學術機構之间互联基於TCP/IP技術的骨干网络 NSFNET （ 英语 ： NSFNET ） ，速度由最初的56kbit/s，接著為T1（1.5Mbit/s），最後發展至T3（45Mbit/s） 。NSFNET於1988至1989年擴展到歐洲、澳洲、紐西蘭和日本的學術和研究組織 。商業 互聯網服務提供商 （ISP）於1989年在美國和澳洲成立 。ARPANET於1990年退役 。",
+            "overview": "1974年， 罗伯特·卡恩 和 文頓·瑟夫 提出 TCP/IP ，定义在电脑网络之间传送报文的方法（他們在2004年也因此獲得 图灵奖 ）。1986年， 美国国家科学基金会 建立了 美国國家超級電腦應用中心 與學術機構之间互联基於TCP/I"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-008",
+            "excerpt": "1989年中期，MCI Mail和 CompuServe 與網際網路建立連接，並且向50萬大眾提供電子郵件服務 。1990年3月， 康奈爾大學 和 歐洲核子研究中心 （CERN）之間架設NSFNET和歐洲之間的第一條高速T1（1.5Mbit/s）連接 。六個月後， 蒂姆·伯纳斯-李 編寫 第一個網頁瀏覽器 。到1990年聖誕節，蒂姆·伯纳斯-李建立運行 万维网 所需的所有工具： 超文本傳輸協定 （HTTP） 、 超文本標記語言 （HTML）、第一個 網頁瀏覽器 、第一個 網頁伺服器 和第一個 網站 。到1995年，NSFNET退役時，互聯網在美國已完全商業化，從而解除最後的商業流量限制 。",
+            "overview": "1989年中期，MCI Mail和 CompuServe 與網際網路建立連接，並且向50萬大眾提供電子郵件服務 。1990年3月， 康奈爾大學 和 歐洲核子研究中心 （CERN）之間架設NSFNET和歐洲之間的第一條高速T1（1.5Mbit"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-009",
+            "excerpt": "網際網路的成功，可從“Internet”这个术语的大、小寫分化窺知一二。最初，互联网一詞代表那些使用IP協定架設而成的網路，而今天，它已引申泛指各種類型的網路，不再侷限於IP網路。於是以小寫的互联网（internet，開頭的「i」是小寫字母）為任何分離的實體網路之集合，這些網路以一組通用的協定相連，形成邏輯上的單一網路。而大寫的互联网（Internet，開頭的「I」是大寫字母）專指前身為 ARPANET ，後使用IP協定將各種實體網路連結成此單一邏輯網路。大寫的互聯網是小寫互聯網的其中一種形式，反過來卻不然。 2002年起，有学者开始提议将“internet”一词用小写表示，理由是互联网已经成为人类生活的一部分，失去专有的意义 ；2016年， 美联社 认为“互联网”已和“电话”一样成为一件一般的事物，不具有专属商标的意义，于是开始在其格式手册中规定“internet”和“ web ”一词全部小写， 纽约时报 也随后跟进， 但同时亦有媒体提出不同意见 。",
+            "overview": "網際網路的成功，可從“Internet”这个术语的大、小寫分化窺知一二。最初，互联网一詞代表那些使用IP協定架設而成的網路，而今天，它已引申泛指各種類型的網路，不再侷限於IP網路。於是以小寫的互联网（internet，開頭的「i」是小寫字母"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      },
+      {
+        "id": "n-access",
+        "label": "接入技术",
+        "kind": "concept",
+        "summary": "概括拨号、宽带、光纤和移动设备等接入方式如何扩大网络可达性。",
+        "content": "",
+        "confidence": 0.88,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-010",
+            "excerpt": "連接技術",
+            "overview": "連接技術"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-011",
+            "excerpt": "任何需要使用網際網路的计算机必须通过某种方式与網際網路进行连接。網際網路接入技术的发展非常迅速，带宽由最初的14.4 Kbps 发展到目前的1 Gbps 甚至10 Gbps 带宽，接入方式也由过去单一的 电话拨号 方式，发展成现在多样的有线和无线接入方式，接入终端也開始朝向移动设备发展。并且更新更快的接入方式仍在继续地被研究和开发。",
+            "overview": "任何需要使用網際網路的计算机必须通过某种方式与網際網路进行连接。網際網路接入技术的发展非常迅速，带宽由最初的14.4 Kbps 发展到目前的1 Gbps 甚至10 Gbps 带宽，接入方式也由过去单一的 电话拨号 方式，发展成现在多样的有线"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      },
+      {
+        "id": "n-protocol",
+        "label": "协议栈",
+        "kind": "concept",
+        "summary": "解释应用层、传输层和网络层协议如何共同完成数据传输，并涉及 TCP、UDP、IPv4 和 IPv6。",
+        "content": "",
+        "confidence": 0.88,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-012",
+            "excerpt": "架構",
+            "overview": "架構"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-013",
+            "excerpt": "最顶层的是一些应用层协议，这些协议定义了一些用于通用应用的数据报结构，包括 FTP 及 HTTP 等。中间层是 UDP协议 和 TCP协议 ，它们用于控制数据流的传输。 UDP 是一种不可靠的数据流传输协议，仅为网络层和应用层之间提供简单的接口。而TCP协议则具有高的可靠性，通过为数据报加入额外信息，并提供重发机制，它能够保证数据不丢包、没有冗余包以及保证数据包的顺序。对于一些需要高可靠性的应用，可以选择TCP协议；而相反，对于性能优先考虑的应用如流媒体等，则可以选择UDP协议。",
+            "overview": "最顶层的是一些应用层协议，这些协议定义了一些用于通用应用的数据报结构，包括 FTP 及 HTTP 等。中间层是 UDP协议 和 TCP协议 ，它们用于控制数据流的传输。 UDP 是一种不可靠的数据流传输协议，仅为网络层和应用层之间提供简单的"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-014",
+            "excerpt": "最底层的是 網際網路協定 ，是用于报文交换网络的一种面向数据的协议，这一协议定义了数据包在网际传送时的格式。目前使用最多的是 IPv4 版本，这一版本中用32位定义 IP地址 ，尽管地址总数达到43亿，但是仍然不能满足现今全球网络飞速发展的需求，因此 IPv6 版本应运而生。在IPv6版本中，IP地址共有128位，“几乎可以为地球上每一粒沙子分配一个IPv6地址”。IPv6目前并没有普及，许多網際網路服务提供商并不支持IPv6协议的连接。但是，可以预见，将来在IPv6的帮助下，任何家用电器都有可能连入網際網路。",
+            "overview": "最底层的是 網際網路協定 ，是用于报文交换网络的一种面向数据的协议，这一协议定义了数据包在网际传送时的格式。目前使用最多的是 IPv4 版本，这一版本中用32位定义 IP地址 ，尽管地址总数达到43亿，但是仍然不能满足现今全球网络飞速发展的"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      },
+      {
+        "id": "n-services",
+        "label": "互联网服务",
+        "kind": "concept",
+        "summary": "整理万维网、通信、文件传输等互联网服务，以及它们依赖的协议和浏览器生态。",
+        "content": "",
+        "confidence": 0.95,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-015",
+            "excerpt": "服務",
+            "overview": "服務"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-016",
+            "excerpt": "網際網路承載著眾多應用與服務，其中最為普遍的是 全球資訊網 ，此外還包括 社群媒體 、 電子郵件 、 行動應用程式 、 多人電子遊戲 、 網際網路通話 、 檔案分享 以及 串流媒體 服務。",
+            "overview": "網際網路承載著眾多應用與服務，其中最為普遍的是 全球資訊網 ，此外還包括 社群媒體 、 電子郵件 、 行動應用程式 、 多人電子遊戲 、 網際網路通話 、 檔案分享 以及 串流媒體 服務。"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-017",
+            "excerpt": "全球資訊網",
+            "overview": "全球資訊網"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-018",
+            "excerpt": "全球資訊網 是一個全球性的資源集合，包含 文件 、 圖片 、 多媒體 、應用程式及其他資源，透過 超連結 進行邏輯上的關聯，並使用 統一資源標誌符 作為引用基準，提供了一套全球性的命名參考系統，象徵性地識別了各項服務、 網頁伺服器 、資料庫以及其所能提供的文件與資源。",
+            "overview": "全球資訊網 是一個全球性的資源集合，包含 文件 、 圖片 、 多媒體 、應用程式及其他資源，透過 超連結 進行邏輯上的關聯，並使用 統一資源標誌符 作為引用基準，提供了一套全球性的命名參考系統，象徵性地識別了各項服務、 網頁伺服器 、資料庫"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-019",
+            "excerpt": "超文本傳輸協議 （HTTP）是全球資訊網主要的存取協議，全球資訊網的服務使用HTTP在軟體系統之間進行通訊和資料傳輸 。",
+            "overview": "超文本傳輸協議 （HTTP）是全球資訊網主要的存取協議，全球資訊網的服務使用HTTP在軟體系統之間進行通訊和資料傳輸 。"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-020",
+            "excerpt": "全球資訊網瀏覽器軟體，例如︰ Microsoft Edge 、 Mozilla Firefox 、 Opera 、 Safari 以及 Google Chrome (全球五大瀏覽器)能讓使用者能透過文件中嵌入的超連結，在不同的網頁之間跳轉。這些文件可能包括圖形、音訊、文字、影片、多媒體及互動內容。 動態網頁 則可實現動畫、遊戲以及科學展示等功能。",
+            "overview": "全球資訊網瀏覽器軟體，例如︰ Microsoft Edge 、 Mozilla Firefox 、 Opera 、 Safari 以及 Google Chrome (全球五大瀏覽器)能讓使用者能透過文件中嵌入的超連結，在不同的網頁之間跳轉。"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-021",
+            "excerpt": "通訊",
+            "overview": "通訊"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-022",
+            "excerpt": "電子郵件 是網際網路上重要的通訊服務。這項類似於郵寄信件或備忘錄的方式發送電子文字訊息的概念已早於網際網路的誕生之前 。圖片、文件和其他資料以電子郵件附件的形式發送。電子郵件可以發送多個 電子郵件地址 。",
+            "overview": "電子郵件 是網際網路上重要的通訊服務。這項類似於郵寄信件或備忘錄的方式發送電子文字訊息的概念已早於網際網路的誕生之前 。圖片、文件和其他資料以電子郵件附件的形式發送。電子郵件可以發送多個 電子郵件地址 。"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-023",
+            "excerpt": "檔案（PDF／jpg等等） 傳輸",
+            "overview": "檔案（PDF／jpg等等） 傳輸"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-024",
+            "excerpt": "檔案分享 是網際網路傳輸大量數據的一個例子，透過上傳至網站或 檔案傳輸協定 （FTP）伺服器上以供他人下載。除此之外，也可以置於共享位置或 檔案伺服器 供其他人使用。",
+            "overview": "檔案分享 是網際網路傳輸大量數據的一個例子，透過上傳至網站或 檔案傳輸協定 （FTP）伺服器上以供他人下載。除此之外，也可以置於共享位置或 檔案伺服器 供其他人使用。"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      },
+      {
+        "id": "n-security",
+        "label": "安全与治理",
+        "kind": "evidence",
+        "summary": "讨论网络扩张带来的安全威胁、监控、隐私和内容治理问题。",
+        "content": "",
+        "confidence": 0.88,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-025",
+            "excerpt": "安全",
+            "overview": "安全"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-026",
+            "excerpt": "经过多年的发展，互联网已经在社会的各个层面为全人类提供了便利。但是随之而来的不全是正面的影响，並影響著人们的正常生活。",
+            "overview": "经过多年的发展，互联网已经在社会的各个层面为全人类提供了便利。但是随之而来的不全是正面的影响，並影響著人们的正常生活。"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-027",
+            "excerpt": "惡意軟體",
+            "overview": "惡意軟體"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-028",
+            "excerpt": "惡意軟體 是透過互聯網使用和散發的軟件，包括在人為協助下複製的 電腦病毒 、自我複製的 電腦蠕蟲 、 阻斷服務攻擊 軟體、 勒索軟件 、釣魚攻擊、 殭屍網絡 以及蒐集使用者活動和鍵入資訊的 間諜軟件 ，通常這些行為足以構成 網路犯罪 。",
+            "overview": "惡意軟體 是透過互聯網使用和散發的軟件，包括在人為協助下複製的 電腦病毒 、自我複製的 電腦蠕蟲 、 阻斷服務攻擊 軟體、 勒索軟件 、釣魚攻擊、 殭屍網絡 以及蒐集使用者活動和鍵入資訊的 間諜軟件 ，通常這些行為足以構成 網路犯罪 。"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-029",
+            "excerpt": "監控",
+            "overview": "監控"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-030",
+            "excerpt": "在美國，由 美國國家安全局 （NSA）為首自2007年起開始實施的最高機密等級電子監聽計劃，該計劃可監聽美國本土以外的使用者、或任何與國外通訊的美國公民。參與此計划的前 中情局 （CIA）雇员 斯诺登 在2013年5月將檔案複製後前往香港並將此計划公諸於世，然后於2013年6月6日，在英国《 衛報 》和美国《 華盛頓郵報 》公開 。",
+            "overview": "在美國，由 美國國家安全局 （NSA）為首自2007年起開始實施的最高機密等級電子監聽計劃，該計劃可監聽美國本土以外的使用者、或任何與國外通訊的美國公民。參與此計划的前 中情局 （CIA）雇员 斯诺登 在2013年5月將檔案複製後前往香港並"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-031",
+            "excerpt": "内容审查",
+            "overview": "内容审查"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-032",
+            "excerpt": "网络内容审查是一种对网络承载的内容进行审查，并对部分内容进行过滤、删除、关闭等行为，内容审查通常伴随对相关人员与组织的行政处理。网络审查主要针对危害国家安全、侵犯版权与个人隐私、通过网络进行违法活动以及对不道德的行为进行宣传和教唆等行为。许多国家都有相关立法，并且在政府设有相关部门进行监控和管理。然而对网络内容的审查在一定程度上限制了言论的自由，在何种程度上、采取何种手段进行网络审查一直是争议的话题。",
+            "overview": "网络内容审查是一种对网络承载的内容进行审查，并对部分内容进行过滤、删除、关闭等行为，内容审查通常伴随对相关人员与组织的行政处理。网络审查主要针对危害国家安全、侵犯版权与个人隐私、通过网络进行违法活动以及对不道德的行为进行宣传和教唆等行为。许"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-033",
+            "excerpt": "在西方国家例如美国，通常由网络提供商和企业制定网络内容审查的策略，而政府对不涉及刑事犯罪的网络内容不做任何监管；在 中华人民共和国 的大陆地区，政府通常会对网络内容的审查发布建议性和指导性政策，各企业和网络提供商根据建议性和指导性政策，利用 信息技术 进行网络内容的过滤和审查，过滤和阻挡了一些包含政治和色情信息的国内、国外网站，以限制大部分民众访问到这些网站 或增加该网站的访问难度。在 中华人民共和国 的 香港特别行政区 、 澳门特别行政区 ，政府亦不对不涉及刑事犯罪的网络内容做任何审查。个别国家，如 朝鲜 ，则完全禁止普通民众访问境外网站，民众只能访问由政府开设的 國家區域網路 。",
+            "overview": "在西方国家例如美国，通常由网络提供商和企业制定网络内容审查的策略，而政府对不涉及刑事犯罪的网络内容不做任何监管；在 中华人民共和国 的大陆地区，政府通常会对网络内容的审查发布建议性和指导性政策，各企业和网络提供商根据建议性和指导性政策，利用"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      },
+      {
+        "id": "n-adoption",
+        "label": "全球普及",
+        "kind": "concept",
+        "summary": "通过全球网络覆盖率和区域差异，说明互联网普及仍然受到基础设施和社会条件影响。",
+        "content": "",
+        "confidence": 0.88,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-034",
+            "excerpt": "普及率",
+            "overview": "普及率"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-035",
+            "excerpt": "截至2020年6月，全球約有48億網民，互聯網普及率是62%。",
+            "overview": "截至2020年6月，全球約有48億網民，互聯網普及率是62%。"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-036",
+            "excerpt": "截至2019年，互联网普及率最高的國家或城市為科威特（99.6%）；第二至第五位分別是卡塔尔（99.6%）、福克兰群岛（99.3%），百慕大（99.2%）及冰岛（99.0%）。",
+            "overview": "截至2019年，互联网普及率最高的國家或城市為科威特（99.6%）；第二至第五位分別是卡塔尔（99.6%）、福克兰群岛（99.3%），百慕大（99.2%）及冰岛（99.0%）。"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-037",
+            "excerpt": "根据 中国互联网络信息中心 在2022年8月31日发表的第50次《中国互联网络发展状况统计报告》，截至2022年6月，中国的 网民 规模为10.51亿，为世界首位。互联网普及率达74.4%，已远高于世界平均水平。",
+            "overview": "根据 中国互联网络信息中心 在2022年8月31日发表的第50次《中国互联网络发展状况统计报告》，截至2022年6月，中国的 网民 规模为10.51亿，为世界首位。互联网普及率达74.4%，已远高于世界平均水平。"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-038",
+            "excerpt": "註釋",
+            "overview": "註釋"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-039",
+            "excerpt": "网络化生存，乔岗，中国城市出版社，1997年， ISBN 978-7-5074-0930-7",
+            "overview": "网络化生存，乔岗，中国城市出版社，1997年， ISBN 978-7-5074-0930-7"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-040",
+            "excerpt": "Richard J. Smith, Mark Gibbs, Paul McFedries 著，毛伟、张文涛 译，Internet漫游指南，人民邮电出版社，1998年. ISBN 978-7-115-06663-3",
+            "overview": "Richard J. Smith, Mark Gibbs, Paul McFedries 著，毛伟、张文涛 译，Internet漫游指南，人民邮电出版社，1998年. ISBN 978-7-115-06663-3"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-041",
+            "excerpt": "世界是平的 ， 湯馬斯·佛里曼 著，2005年出版. ISBN 978-986-80180-9-9",
+            "overview": "世界是平的 ， 湯馬斯·佛里曼 著，2005年出版. ISBN 978-986-80180-9-9"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-042",
+            "excerpt": "互联网主题",
+            "overview": "互联网主题"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-043",
+            "excerpt": "电信主题",
+            "overview": "电信主题"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-044",
+            "excerpt": "信息技术主题",
+            "overview": "信息技术主题"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-045",
+            "excerpt": "社会主题",
+            "overview": "社会主题"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-046",
+            "excerpt": "內聯網",
+            "overview": "內聯網"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-047",
+            "excerpt": "區域網路",
+            "overview": "區域網路"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-048",
+            "excerpt": "廣域網路",
+            "overview": "廣域網路"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-049",
+            "excerpt": "都會網路",
+            "overview": "都會網路"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-050",
+            "excerpt": "網頁瀏覽器",
+            "overview": "網頁瀏覽器"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-051",
+            "excerpt": "网络电话",
+            "overview": "网络电话"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-052",
+            "excerpt": "即時通訊",
+            "overview": "即時通訊"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-053",
+            "excerpt": "搜索引擎",
+            "overview": "搜索引擎"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-054",
+            "excerpt": "信息技术",
+            "overview": "信息技术"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-055",
+            "excerpt": "计算机技术",
+            "overview": "计算机技术"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-056",
+            "excerpt": "网络语言",
+            "overview": "网络语言"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-057",
+            "excerpt": "網路友誼",
+            "overview": "網路友誼"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-058",
+            "excerpt": "網誌",
+            "overview": "網誌"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-059",
+            "excerpt": "網域名稱",
+            "overview": "網域名稱"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-060",
+            "excerpt": "網路硬碟",
+            "overview": "網路硬碟"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-061",
+            "excerpt": "全球網際網路使用率",
+            "overview": "全球網際網路使用率"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-062",
+            "excerpt": "互联网审查",
+            "overview": "互联网审查"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-063",
+            "excerpt": "暗网",
+            "overview": "暗网"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-064",
+            "excerpt": "網路主權",
+            "overview": "網路主權"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-065",
+            "excerpt": "在網際網路上，沒人知道你是一隻狗",
+            "overview": "在網際網路上，沒人知道你是一隻狗"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-066",
+            "excerpt": "Minitel",
+            "overview": "Minitel"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-067",
+            "excerpt": "（英文） The Internet Society （ 页面存档备份 ，存于 互联网档案馆 ）",
+            "overview": "（英文） The Internet Society （ 页面存档备份 ，存于 互联网档案馆 ）"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-068",
+            "excerpt": "（英文） World Wide Web Consortium (W3C) （ 页面存档备份 ，存于 互联网档案馆 ）",
+            "overview": "（英文） World Wide Web Consortium (W3C) （ 页面存档备份 ，存于 互联网档案馆 ）"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-069",
+            "excerpt": "（英文） Asia Pacific Network Information Centre （ 页面存档备份 ，存于 互联网档案馆 ）",
+            "overview": "（英文） Asia Pacific Network Information Centre （ 页面存档备份 ，存于 互联网档案馆 ）"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-070",
+            "excerpt": "（英文） RFC 2235 - Hobbes' Internet Timeline",
+            "overview": "（英文） RFC 2235 - Hobbes' Internet Timeline"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-071",
+            "excerpt": "（中文） W3C China中国万维网联盟",
+            "overview": "（中文） W3C China中国万维网联盟"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-072",
+            "excerpt": "（中文） 財團法人台灣網路資訊中心 （ 页面存档备份 ，存于 互联网档案馆 ）",
+            "overview": "（中文） 財團法人台灣網路資訊中心 （ 页面存档备份 ，存于 互联网档案馆 ）"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-073",
+            "excerpt": "（中文） 中国互联网络信息中心 （ 页面存档备份 ，存于 互联网档案馆 ）",
+            "overview": "（中文） 中国互联网络信息中心 （ 页面存档备份 ，存于 互联网档案馆 ）"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      },
+      {
+        "id": "n-arpanet",
+        "label": "ARPANET",
+        "kind": "concept",
+        "summary": "ARPANET 将分组交换和主机网络协议带入实际运行，成为互联网的重要前身。",
+        "content": "",
+        "confidence": 0.88,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-002",
+            "excerpt": "網際網路的起源可以追溯到1960年代 美國聯邦政府 委託進行的一項研究，目的是建立容錯與電腦網路的通信 。網際網路的前身 ARPANET 最初在1980年代作為區域學術和軍事網路連接的骨幹。1980年代， NSFNET （ 英语 ： NSFNET ） 成為新的骨幹而得到資助，以及其他商業化擴展得到了私人資助，這導致了全世界網路技術的快速發展，以及許多不同網路的合併結成更大的網路 。到1990年代初，商業網路和企業之間的連接標誌著向現代網際網路的過渡 。儘管網際網路在1980年代只被學術界廣泛使用，但商業化的服務和技術，令其極快的融入了現代每個人的生活。",
+            "overview": "網際網路的起源可以追溯到1960年代 美國聯邦政府 委託進行的一項研究，目的是建立容錯與電腦網路的通信 。網際網路的前身 ARPANET 最初在1980年代作為區域學術和軍事網路連接的骨幹。1980年代， NSFNET （ 英语 ： NSF"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-006",
+            "excerpt": "在20世紀50年代，通信研究者认识到需要允许在不同计算机用户和通信网络之间进行常规的通信。这促使 分散网络 、 排队论 和 封包交換 的研究。1960年， 美国国防部 高等研究计划署 （DARPA）出于 冷战 考虑建立的 ARPANET 引发技术进步并使其成为互联网发展的中心。ARPANET的發展始於兩個網路節點，由 倫納德·克萊因羅克 帶領的 加利福尼亞大學洛杉磯分校 的網路測量中心與 加利福尼亞州門羅帕克 斯坦福國際研究院 （ 英语 ： SRI International ） （SRI） 道格拉斯·恩格爾巴特 的NLS系統兩個節點之間連接。第三個節點是 加利福尼亞大學聖塔芭芭拉分校 ，第四個節點是 犹他大学 。到1971年底，已經有15個節點連接到ARPANET 。1973年6月，挪威地震陣列所（ NORSAR （ 英语 ： NORSAR ） ）連接到ARPANET成為美國本土之外的第一個網路節點 。",
+            "overview": "在20世紀50年代，通信研究者认识到需要允许在不同计算机用户和通信网络之间进行常规的通信。这促使 分散网络 、 排队论 和 封包交換 的研究。1960年， 美国国防部 高等研究计划署 （DARPA）出于 冷战 考虑建立的 ARPANET 引"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-007",
+            "excerpt": "1974年， 罗伯特·卡恩 和 文頓·瑟夫 提出 TCP/IP ，定义在电脑网络之间传送报文的方法（他們在2004年也因此獲得 图灵奖 ）。1986年， 美国国家科学基金会 建立了 美国國家超級電腦應用中心 與學術機構之间互联基於TCP/IP技術的骨干网络 NSFNET （ 英语 ： NSFNET ） ，速度由最初的56kbit/s，接著為T1（1.5Mbit/s），最後發展至T3（45Mbit/s） 。NSFNET於1988至1989年擴展到歐洲、澳洲、紐西蘭和日本的學術和研究組織 。商業 互聯網服務提供商 （ISP）於1989年在美國和澳洲成立 。ARPANET於1990年退役 。",
+            "overview": "1974年， 罗伯特·卡恩 和 文頓·瑟夫 提出 TCP/IP ，定义在电脑网络之间传送报文的方法（他們在2004年也因此獲得 图灵奖 ）。1986年， 美国国家科学基金会 建立了 美国國家超級電腦應用中心 與學術機構之间互联基於TCP/I"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      },
+      {
+        "id": "n-tcpip",
+        "label": "TCP/IP",
+        "kind": "concept",
+        "summary": "TCP/IP 定义网络之间传送报文的方法，成为互联网络的核心协议。",
+        "content": "",
+        "confidence": 0.88,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-007",
+            "excerpt": "1974年， 罗伯特·卡恩 和 文頓·瑟夫 提出 TCP/IP ，定义在电脑网络之间传送报文的方法（他們在2004年也因此獲得 图灵奖 ）。1986年， 美国国家科学基金会 建立了 美国國家超級電腦應用中心 與學術機構之间互联基於TCP/IP技術的骨干网络 NSFNET （ 英语 ： NSFNET ） ，速度由最初的56kbit/s，接著為T1（1.5Mbit/s），最後發展至T3（45Mbit/s） 。NSFNET於1988至1989年擴展到歐洲、澳洲、紐西蘭和日本的學術和研究組織 。商業 互聯網服務提供商 （ISP）於1989年在美國和澳洲成立 。ARPANET於1990年退役 。",
+            "overview": "1974年， 罗伯特·卡恩 和 文頓·瑟夫 提出 TCP/IP ，定义在电脑网络之间传送报文的方法（他們在2004年也因此獲得 图灵奖 ）。1986年， 美国国家科学基金会 建立了 美国國家超級電腦應用中心 與學術機構之间互联基於TCP/I"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      },
+      {
+        "id": "n-www",
+        "label": "万维网",
+        "kind": "concept",
+        "summary": "万维网把超文本、HTTP 和浏览器组合成面向大众的信息服务。",
+        "content": "",
+        "confidence": 0.95,
+        "source_refs": [
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-004",
+            "excerpt": "互联网 並不等同 万维网 。互联网是指 网络 与网络之间所串而连成的一个逻辑上的单一巨大国际网络，这些网络以一组通用的协议相连。万维网是一个由许多互相链接的 超文本 组成的系统，可以理解为互联网的一项服务，通过互联网访问。 互联网与万维网之间的关系为互联网包含万维网，万维网属于互联网。",
+            "overview": "互联网 並不等同 万维网 。互联网是指 网络 与网络之间所串而连成的一个逻辑上的单一巨大国际网络，这些网络以一组通用的协议相连。万维网是一个由许多互相链接的 超文本 组成的系统，可以理解为互联网的一项服务，通过互联网访问。 互联网与万维网之"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-008",
+            "excerpt": "1989年中期，MCI Mail和 CompuServe 與網際網路建立連接，並且向50萬大眾提供電子郵件服務 。1990年3月， 康奈爾大學 和 歐洲核子研究中心 （CERN）之間架設NSFNET和歐洲之間的第一條高速T1（1.5Mbit/s）連接 。六個月後， 蒂姆·伯纳斯-李 編寫 第一個網頁瀏覽器 。到1990年聖誕節，蒂姆·伯纳斯-李建立運行 万维网 所需的所有工具： 超文本傳輸協定 （HTTP） 、 超文本標記語言 （HTML）、第一個 網頁瀏覽器 、第一個 網頁伺服器 和第一個 網站 。到1995年，NSFNET退役時，互聯網在美國已完全商業化，從而解除最後的商業流量限制 。",
+            "overview": "1989年中期，MCI Mail和 CompuServe 與網際網路建立連接，並且向50萬大眾提供電子郵件服務 。1990年3月， 康奈爾大學 和 歐洲核子研究中心 （CERN）之間架設NSFNET和歐洲之間的第一條高速T1（1.5Mbit"
+          },
+          {
+            "source_id": "s-source",
+            "granularity": "paragraph",
+            "locator": "s-013",
+            "excerpt": "最顶层的是一些应用层协议，这些协议定义了一些用于通用应用的数据报结构，包括 FTP 及 HTTP 等。中间层是 UDP协议 和 TCP协议 ，它们用于控制数据流的传输。 UDP 是一种不可靠的数据流传输协议，仅为网络层和应用层之间提供简单的接口。而TCP协议则具有高的可靠性，通过为数据报加入额外信息，并提供重发机制，它能够保证数据不丢包、没有冗余包以及保证数据包的顺序。对于一些需要高可靠性的应用，可以选择TCP协议；而相反，对于性能优先考虑的应用如流媒体等，则可以选择UDP协议。",
+            "overview": "最顶层的是一些应用层协议，这些协议定义了一些用于通用应用的数据报结构，包括 FTP 及 HTTP 等。中间层是 UDP协议 和 TCP协议 ，它们用于控制数据流的传输。 UDP 是一种不可靠的数据流传输协议，仅为网络层和应用层之间提供简单的"
+          }
+        ],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "versions": {
+          "ai": null,
+          "user": null
+        },
+        "locked_fields": []
+      }
+    ],
+    "edges": [
+      {
+        "id": "e-01",
+        "from": "n-title",
+        "to": "n-concept",
+        "relation": "定义",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.9,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      },
+      {
+        "id": "e-02",
+        "from": "n-concept",
+        "to": "n-history",
+        "relation": "演化",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.9,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      },
+      {
+        "id": "e-03",
+        "from": "n-history",
+        "to": "n-arpanet",
+        "relation": "形成",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.9,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      },
+      {
+        "id": "e-04",
+        "from": "n-arpanet",
+        "to": "n-tcpip",
+        "relation": "推动",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.9,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      },
+      {
+        "id": "e-05",
+        "from": "n-tcpip",
+        "to": "n-protocol",
+        "relation": "实现",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.9,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      },
+      {
+        "id": "e-06",
+        "from": "n-protocol",
+        "to": "n-www",
+        "relation": "支撑",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.9,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      },
+      {
+        "id": "e-07",
+        "from": "n-www",
+        "to": "n-services",
+        "relation": "提供",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.9,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      },
+      {
+        "id": "e-08",
+        "from": "n-access",
+        "to": "n-services",
+        "relation": "扩大",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.9,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      },
+      {
+        "id": "e-09",
+        "from": "n-services",
+        "to": "n-security",
+        "relation": "引出",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.9,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      },
+      {
+        "id": "e-10",
+        "from": "n-security",
+        "to": "n-adoption",
+        "relation": "影响",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.78,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      },
+      {
+        "id": "e-11",
+        "from": "n-history",
+        "to": "n-access",
+        "relation": "基础设施扩展",
+        "relation_basis": "由同一主题段落的定义、时间演化或因果叙述支持。",
+        "confidence": 0.78,
+        "source_refs": [],
+        "provenance": "extracted",
+        "status": "confirmed",
+        "locked_fields": []
+      }
+    ]
+  },
+  "layout": {
+    "positions": {
+      "n-title": {
+        "x": 70,
+        "y": 60
+      },
+      "n-concept": {
+        "x": 355,
+        "y": 60
+      },
+      "n-history": {
+        "x": 640,
+        "y": 60
+      },
+      "n-access": {
+        "x": 925,
+        "y": 60
+      },
+      "n-protocol": {
+        "x": 70,
+        "y": 220
+      },
+      "n-services": {
+        "x": 355,
+        "y": 220
+      },
+      "n-security": {
+        "x": 640,
+        "y": 220
+      },
+      "n-adoption": {
+        "x": 925,
+        "y": 220
+      },
+      "n-arpanet": {
+        "x": 70,
+        "y": 380
+      },
+      "n-tcpip": {
+        "x": 355,
+        "y": 380
+      },
+      "n-www": {
+        "x": 640,
+        "y": 380
+      }
+    },
+    "zoom": 0.8
+  },
+  "mappings": [],
+  "outline": [],
+  "evidence_chains": [],
+  "pending_suggestions": [],
+  "sync": {
+    "state": "synced"
+  }
+}

@@ -59,6 +59,25 @@ Segmentation is paragraph-first and only refines to sentences or webpage fragmen
 
 ## 🚀 Getting Started
 
+### Run the interactive editor
+
+From the repository root, run the local service with Python 3.11 or newer.
+
+```sh
+python server.py --port 8766
+```
+
+Open http://127.0.0.1:8766 in your browser. The editor provides drag-and-drop nodes,
+direct port connections, colored nodes, thicker connectors, translucent nested modules,
+source navigation, recoverable property drafts, and versioned saves.
+The service uses Python's standard library, and the frontend uses native ES modules.
+
+You can also open [standalone/Traceify.html](standalone/Traceify.html) directly.
+See the [editor guide](docs/EDITOR.md), [integration guide](integration/INTEGRATION.md),
+[visual constraints](integration/DESIGN.md), and bundled [Sleek Skill](skills/awesome-design-sleek/SKILL.md).
+
+![Interactive editor with nested modules](docs/images/editor-desktop.png)
+
 ### Install as an agent skill
 
 Copy this repository into your agent's skill directory (or point your agent at [`SKILL.md`](SKILL.md)). For Codex, the display metadata in [`agents/openai.yaml`](agents/openai.yaml) is picked up automatically.
@@ -96,6 +115,7 @@ All output — whether JSON, Markdown, Mermaid, or an interactive canvas — fol
 | --- | --- |
 | `source` | id, kind, title, locator, content hash, status |
 | `graph.nodes` | label, kind, summary, provenance, confidence, source refs, versions |
+| `graph.groups` | nested modules with membership, parent IDs, colors, and grouping basis |
 | `graph.edges` | from/to, relation, relation basis, confidence, provenance |
 | `mappings` | reverse index: source excerpt → graph items |
 | `outline` | hierarchy items pointing at node IDs |

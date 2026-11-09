@@ -59,6 +59,23 @@ flowchart LR
 
 ## 🚀 快速开始
 
+### 运行图谱编辑器
+
+在仓库根目录运行本机服务，需要Python 3.11或更新版本。
+
+```sh
+python server.py --port 8766
+```
+
+浏览器打开 http://127.0.0.1:8766 。当前前端包含拖放节点、端口连线、彩色节点、加粗连线、
+半透明多级模块、原文联动、属性草稿恢复和版本保存。服务使用Python标准库，前端采用原生ES模块。
+
+也可直接打开[独立HTML](standalone/Traceify.html)。详细操作见[编辑器说明](docs/EDITOR.md)，
+迁移见[接入说明](integration/INTEGRATION.md)与[视觉约束](integration/DESIGN.md)，
+设计技能见[Sleek Skill](skills/awesome-design-sleek/SKILL.md)。
+
+![带多级模块的图谱工作台](docs/images/editor-desktop.png)
+
 ### 安装为 Agent Skill
 
 把本仓库复制进你的 Agent skill 目录（或让 Agent 直接读取 [`SKILL.md`](SKILL.md)）。Codex 会自动识别 [`agents/openai.yaml`](agents/openai.yaml) 中的展示元数据。
@@ -96,6 +113,7 @@ flowchart LR
 | --- | --- |
 | `source` | id、类型、标题、定位符、内容哈希、状态 |
 | `graph.nodes` | 标签、类型、摘要、来源属性、置信度、来源引用、版本 |
+| `graph.groups` | 多级模块的成员、父级、颜色与分组依据 |
 | `graph.edges` | 起点/终点、关系、关系依据、置信度、来源属性 |
 | `mappings` | 反向索引：原文摘录 → 图谱项 |
 | `outline` | 指向节点 ID 的层级条目 |

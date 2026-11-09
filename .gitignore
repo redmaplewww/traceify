@@ -18,3 +18,9 @@ desktop.ini
 .idea/
 .vscode/
 *.swp
+
+# Local editor data and credentials
+workspaces/
+output/
+.env
+.env.*

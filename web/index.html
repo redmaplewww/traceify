@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1c293d">
+  <title>Traceify · 知识图谱工作台</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#viewport">跳到知识图谱</a>
+  <nav class="app-rail" aria-label="工作区导航">
+    <a class="rail-brand" href="#viewport" aria-label="Traceify 知识图谱"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#network"></use></svg></a>
+    <div class="rail-navigation">
+      <button id="show-components" title="节点组件" aria-controls="library-pane"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#library"></use></svg><span>组件</span></button>
+      <button id="show-outline" title="层级大纲" aria-controls="library-pane"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#outline"></use></svg><span>大纲</span></button>
+      <button id="show-chains" title="原文证据链" aria-controls="library-pane"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#connect"></use></svg><span>证据</span></button>
+    </div>
+    <div class="rail-bottom">
+      <button id="open-source" title="导入或更换原文"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#source"></use></svg><span>导入</span></button>
+      <button id="rail-settings" title="连接补充模型"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#settings"></use></svg><span>模型</span></button>
+      <span class="rail-avatar" aria-label="本机工作区">本地</span>
+    </div>
+  </nav>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><strong>Traceify</strong><span>知识工作台</span></div>
+      <div class="document-heading"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#source"></use></svg><div class="document-title" id="document-title">知识图谱工作台</div></div>
+      <label class="search-label"><span class="sr-only">搜索节点</span><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#search"></use></svg><input id="search" type="search" placeholder="搜索节点或观点…" autocomplete="off"><kbd>/</kbd></label>
+      <div class="header-actions"><span id="save-status" role="status">正在加载…</span><button id="save-now"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#save"></use></svg><span>保存</span></button><button id="open-settings" class="quiet" aria-label="模型设置"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#settings"></use></svg><span>模型设置</span></button></div>
+    </header>
+    <div class="error-banner" id="error-banner" hidden role="alert"></div>
+    <div class="conflict-banner" id="conflict-banner" hidden><span>另一个窗口已更新图谱。本地修改已保留。</span><button id="keep-local">保留本地，基于最新版本保存</button><button id="load-remote">载入服务端版本</button></div>
+    <nav class="mobile-tabs" aria-label="工作区面板"><button data-panel="left">组件 / 大纲</button><button data-panel="canvas" class="active">知识图谱</button><button data-panel="right">详情 / 原文</button></nav>
+    <div class="workspace library-collapsed" data-panel="canvas">
+      <aside class="left-pane" id="library-pane" aria-label="图谱工具">
+        <div class="pane-heading"><div><span class="pane-kicker">整理与连接</span><h1 id="library-title">节点组件</h1></div><button id="close-library" class="quiet icon-button" aria-label="收起组件面板"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#close"></use></svg></button></div>
+        <label class="search-label mobile-search"><span class="sr-only">搜索节点</span><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#search"></use></svg><input id="mobile-search" type="search" placeholder="搜索节点或观点…" autocomplete="off"></label>
+        <div class="library-mode-nav"><button data-library-mode="components" class="active">组件</button><button data-library-mode="outline">大纲</button><button data-library-mode="chains">证据链</button></div>
+        <section id="component-library" aria-label="节点组件库">
+          <p class="library-hint">拖入一种节点，开始整理知识。</p>
+        <div class="component-grid">
+          <button draggable="true" data-node-kind="concept" class="component-tile" style="--component-color:#3673c8"><svg class="component-icon" aria-hidden="true"><use href="icons.svg#concept"></use></svg><strong>概念</strong><small>定义与原理</small><svg class="drag-grip" aria-hidden="true"><use href="icons.svg#grip"></use></svg></button>
+          <button draggable="true" data-node-kind="claim" class="component-tile" style="--component-color:#9866b8"><svg class="component-icon" aria-hidden="true"><use href="icons.svg#claim"></use></svg><strong>观点</strong><small>论点与假设</small><svg class="drag-grip" aria-hidden="true"><use href="icons.svg#grip"></use></svg></button>
+          <button draggable="true" data-node-kind="evidence" class="component-tile" style="--component-color:#248b79"><svg class="component-icon" aria-hidden="true"><use href="icons.svg#evidence"></use></svg><strong>证据</strong><small>事实与引用</small><svg class="drag-grip" aria-hidden="true"><use href="icons.svg#grip"></use></svg></button>
+          <button draggable="true" data-node-kind="section" class="component-tile" style="--component-color:#be8340"><svg class="component-icon" aria-hidden="true"><use href="icons.svg#section"></use></svg><strong>章节</strong><small>主题与层级</small><svg class="drag-grip" aria-hidden="true"><use href="icons.svg#grip"></use></svg></button>
+          <button draggable="true" data-node-kind="entity" class="component-tile" style="--component-color:#557e9c"><svg class="component-icon" aria-hidden="true"><use href="icons.svg#entity"></use></svg><strong>实体</strong><small>人物与事件</small><svg class="drag-grip" aria-hidden="true"><use href="icons.svg#grip"></use></svg></button>
+          <button draggable="true" data-node-kind="other" class="component-tile" style="--component-color:#77849a"><svg class="component-icon" aria-hidden="true"><use href="icons.svg#plus"></use></svg><strong>自由节点</strong><small>未归类的想法</small><svg class="drag-grip" aria-hidden="true"><use href="icons.svg#grip"></use></svg></button>
+        </div>
+
+          <details class="connection-guide"><summary><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#connect"></use></svg>如何建立关系</summary><p>从节点右侧圆点拖到另一个节点。也可以依次点击两个端口，按 Esc 取消。</p></details>
+        </section>
+        <nav id="outline" class="outline" aria-label="图谱大纲" hidden></nav>
+        <div class="source-card"><div class="source-heading"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#source"></use></svg><strong id="source-title"></strong></div><p id="source-count"></p><button id="view-source" class="text-button">阅读原文 <svg class="ui-icon" aria-hidden="true"><use href="icons.svg#arrow"></use></svg></button><button id="mobile-import" class="text-button">更换原文</button><a id="source-url" class="source-url" target="_blank" rel="noopener noreferrer" hidden>原始来源 <svg class="ui-icon" aria-hidden="true"><use href="icons.svg#external"></use></svg></a></div>
+        <button id="mobile-arrange" class="text-button">整理模块布局</button><div class="library-footer"><i></i>本机工作区</div>
+      </aside>
+      <main class="canvas-pane">
+        <div class="canvas-toolbar" aria-label="画布工具">
+          <div class="canvas-context"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#network"></use></svg><strong>知识图谱</strong><span id="graph-count"></span></div>
+          <div class="canvas-actions"><button id="add-node" class="primary"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#plus"></use></svg><span>添加节点</span></button><button id="add-edge" class="quiet"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#connect"></use></svg><span>连线</span></button><button id="arrange-modules" class="quiet" title="按模块整理节点位置，可撤销"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#section"></use></svg><span>整理模块</span></button><div class="history-actions"><button id="undo" title="撤销 Ctrl+Z" aria-label="撤销"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#undo"></use></svg></button><button id="redo" title="重做 Ctrl+Shift+Z" aria-label="重做"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#redo"></use></svg></button></div></div>
+          <div class="pane-controls"><button id="toggle-library" class="quiet icon-button" aria-label="展开组件面板" title="展开组件面板" aria-controls="library-pane" aria-expanded="false"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#panel-left"></use></svg></button><button id="toggle-inspector" class="quiet icon-button" aria-label="收起详情面板" title="收起详情面板" aria-controls="details-pane" aria-expanded="true"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#panel-right"></use></svg></button></div>
+        </div>
+        <div class="canvas-stage">
+          <div id="viewport" tabindex="0" aria-label="知识图谱画布。拖动节点、从输出端拖到输入端建立关系。"><div id="world-frame"><div id="world"><div id="module-layer" aria-label="多级模块分组"></div><svg id="edge-layer" aria-label="节点关系"></svg><div id="node-layer"></div></div></div><div id="canvas-empty" hidden><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#network"></use></svg><strong>从一个想法开始</strong><p>创建节点，把想法与原文依据连接起来。</p><button id="empty-add" class="primary"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#plus"></use></svg>添加第一个节点</button></div></div>
+          <div class="canvas-footer"><span id="canvas-hint">拖动画布漫游，从节点圆点建立关系</span><div class="zoom-controls"><button id="zoom-out" aria-label="缩小"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#minus"></use></svg></button><span id="zoom-label">100%</span><button id="zoom-in" aria-label="放大"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#plus"></use></svg></button><button id="readable-view" title="恢复阅读大小">阅读</button><button id="fit-view"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#fit"></use></svg><span>全图</span></button></div></div>
+        </div>
+      </main>
+      <aside class="right-pane" id="details-pane" aria-label="详情与原文">
+        <div class="inspector-top"><div class="segmented inspector-tabs"><button id="tab-details" class="active">节点详情</button><button id="tab-source">原文</button></div><button id="close-inspector" class="quiet icon-button" aria-label="收起详情面板"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#close"></use></svg></button></div>
+        <div id="inspector" aria-label="选中对象的属性与原文"></div>
+        <div class="assistant-bar"><div class="assistant-heading"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#spark"></use></svg><strong>补充助手</strong><span id="model-status">检查配置中</span><button id="configure-model" class="text-button">连接模型</button></div><div class="assistant-actions"><button id="ai-fill" class="primary"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#spark"></use></svg>AI 补充</button><button id="source-match"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#source"></use></svg>匹配原文</button><button id="cancel-ai" hidden>取消</button></div><label class="toggle"><input id="auto-fill" type="checkbox" checked>命名后自动补充空白</label><p id="assist-status" role="status"></p><div id="suggestions"></div></div>
+      </aside>
+    </div>
+  </div>
+  <div id="toast" role="status" hidden></div>
+  <datalist id="relation-names"><option value="包含"><option value="支持"><option value="反驳"><option value="依赖"><option value="解释"><option value="关联"></datalist>
+  <dialog id="source-dialog"><form id="source-form"><div class="dialog-heading"><h2>原文与起始图谱</h2><button type="button" data-close aria-label="关闭"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#close"></use></svg></button></div><label>标题<input name="title" required maxlength="100" placeholder="这份内容的名称"></label><label>原文<textarea name="content" rows="9" required placeholder="粘贴文本或 Markdown，空行分隔段落。"></textarea></label><label class="file-label">也可以读取文本或 Markdown 文件<input id="source-file" type="file" accept=".txt,.md,.markdown,text/plain,text/markdown"></label><p class="muted">更换原文会建立一张空图谱；当前修改先保存，操作可撤销。</p><div class="dialog-actions"><button type="button" id="load-demo">载入互联网示例</button><button type="submit" class="primary">从原文开始</button></div></form></dialog>
+  <dialog id="settings-dialog"><form id="settings-form"><div class="dialog-heading"><h2>连接补充模型</h2><button type="button" data-close aria-label="关闭"><svg class="ui-icon" aria-hidden="true"><use href="icons.svg#close"></use></svg></button></div><p class="muted">支持 OpenAI 兼容接口。本机服务转发模型请求，密钥仅驻留服务进程内存。</p><label>API 地址<input name="base_url" type="url" placeholder="https://api.openai.com/v1"></label><label>模型名称<input name="model" placeholder="填写服务商提供的模型名称" maxlength="160"></label><label>API Key<input name="api_key" type="password" autocomplete="off" placeholder="留空沿用当前密钥；本地模型可不填"></label><label class="toggle"><input name="clear_key" type="checkbox">清除已保存的内存密钥</label><p id="settings-message" role="status"></p><div class="dialog-actions"><button type="button" data-close>取消</button><button type="submit" class="primary">保存模型设置</button></div></form></dialog>
+
+</body>
+</html>
